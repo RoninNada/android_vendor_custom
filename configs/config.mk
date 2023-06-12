@@ -26,6 +26,16 @@ PRODUCT_PACKAGES += \
     crDroidFonts \
     LockClock
 
+# Berry styles
+PRODUCT_PACKAGES += \
+    LineageDemonAccent \
+    LineageDenimAccent \
+    LineageGoldAccent \
+    LineageGreyAccent \
+    LineageOxygenAccent \
+    LineageTealAccent \
+    LineageTurquoiseAccent
+
 # DU Utils Library
 PRODUCT_BOOT_JARS += \
    org.dirtyunicorns.utils
