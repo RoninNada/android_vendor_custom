@@ -24,4 +24,7 @@ PRODUCT_PACKAGES += \
     crDroidFonts \
     LockClock
 
+PRODUCT_COPY_FILES += \
+    vendor/custom/prebuilt/addon.d/80-fdroid.sh:system/addon.d/80-fdroid.sh
+
 DEVICE_PACKAGE_OVERLAYS += vendor/custom/overlay/common
