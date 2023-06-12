@@ -17,6 +17,7 @@ LOCAL_PATH := $(call my-dir)
 PRODUCT_PACKAGES += \
     Turbo \
     Gallery2 \
+    OmniJaws \
     F-Droid \
     F-DroidPrivilegedExtension
 
