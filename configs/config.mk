@@ -26,6 +26,17 @@ PRODUCT_PACKAGES += \
     crDroidFonts \
     LockClock
 
+# Dark/Black Themes
+PRODUCT_PACKAGES += \
+    crDroidHomeDarkTheme \
+    crDroidHomeBlackTheme
+    SettingsDarkTheme \
+    SystemDarkTheme \
+    SystemUIDarkTheme \
+    SettingsBlackTheme \
+    SystemBlackTheme \
+    SystemUIBlackTheme
+
 # Berry styles
 PRODUCT_PACKAGES += \
     LineageDemonAccent \
