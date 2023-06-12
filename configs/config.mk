@@ -20,9 +20,17 @@ PRODUCT_PACKAGES += \
     OmniJaws \
     OmniStyle \
     F-Droid \
+    permissions_org.fdroid.fdroid.privileged.xml \
     F-DroidPrivilegedExtension \
     crDroidFonts \
     LockClock
+
+# DU Utils Library
+PRODUCT_BOOT_JARS += \
+   org.dirtyunicorns.utils
+
+PRODUCT_PACKAGES += \
+   org.dirtyunicorns.utils
 
 #Copy extra files
 PRODUCT_COPY_FILES += \
