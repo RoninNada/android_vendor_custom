@@ -21,6 +21,7 @@ PRODUCT_PACKAGES += \
     OmniStyle \
     F-Droid \
     F-DroidPrivilegedExtension \
-    crDroidFonts
+    crDroidFonts \
+    LockClock
 
 DEVICE_PACKAGE_OVERLAYS += vendor/custom/overlay/common
