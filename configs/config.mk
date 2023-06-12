@@ -22,6 +22,7 @@ PRODUCT_PACKAGES += \
     F-Droid \
     permissions_org.fdroid.fdroid.privileged.xml \
     F-DroidPrivilegedExtension \
+    crDroidHome3 \
     crDroidFonts \
     LockClock
 
