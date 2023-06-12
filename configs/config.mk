@@ -12,7 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 LOCAL_PATH := $(call my-dir)
-include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
 # Required packages
 PRODUCT_PACKAGES += \
+
+DEVICE_PACKAGE_OVERLAYS += vendor/custom/overlay/common
