@@ -18,6 +18,7 @@ PRODUCT_PACKAGES += \
     Turbo \
     Gallery2 \
     OmniJaws \
+    OmniStyle \
     F-Droid \
     F-DroidPrivilegedExtension
 
