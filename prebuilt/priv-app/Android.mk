@@ -13,8 +13,13 @@
 # limitations under the License.
 LOCAL_PATH := $(call my-dir)
 
-# Required packages
-PRODUCT_PACKAGES += \
-    Turbo
-
-DEVICE_PACKAGE_OVERLAYS += vendor/custom/overlay/common
+include $(CLEAR_VARS)
+LOCAL_MODULE := Turbo
+LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_TAGS := optional
+LOCAL_CERTIFICATE := platform
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+include $(BUILD_PREBUILT)
