@@ -16,6 +16,7 @@ LOCAL_PATH := $(call my-dir)
 # Required packages
 PRODUCT_PACKAGES += \
     Turbo \
+    Gallery2 \
     F-Droid \
     F-DroidPrivilegedExtension
 
