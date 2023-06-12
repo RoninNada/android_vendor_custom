@@ -24,6 +24,11 @@ PRODUCT_PACKAGES += \
     crDroidFonts \
     LockClock
 
+#Copy extra files
+PRODUCT_COPY_FILES += \
+    vendor/custom/prebuilt/etc/additional_fdroid_repos.xml:system/etc/org.fdroid.fdroid/additional_repos.xml \
+    vendor/custom/prebuilt/etc/additional_fdroid_repos.xml:system/etc/org.fdroid.basic/additional_repos.xml
+
 PRODUCT_COPY_FILES += \
     vendor/custom/prebuilt/addon.d/80-fdroid.sh:system/addon.d/80-fdroid.sh
 
