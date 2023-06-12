@@ -15,6 +15,7 @@ LOCAL_PATH := $(call my-dir)
 
 # Required packages
 PRODUCT_PACKAGES += \
-    Turbo
+    Turbo \
+    F-DroidPrivilegedExtension
 
 DEVICE_PACKAGE_OVERLAYS += vendor/custom/overlay/common
