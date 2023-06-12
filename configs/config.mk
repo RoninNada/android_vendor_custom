@@ -62,4 +62,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/custom/prebuilt/addon.d/80-fdroid.sh:system/addon.d/80-fdroid.sh
 
+# Build lineage SU
+WITH_SU := true
+
 DEVICE_PACKAGE_OVERLAYS += vendor/custom/overlay/common
