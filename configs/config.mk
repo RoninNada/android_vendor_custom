@@ -29,7 +29,7 @@ PRODUCT_PACKAGES += \
 # Dark/Black Themes
 PRODUCT_PACKAGES += \
     crDroidHomeDarkTheme \
-    crDroidHomeBlackTheme
+    crDroidHomeBlackTheme \
     SettingsDarkTheme \
     SystemDarkTheme \
     SystemUIDarkTheme \
@@ -61,6 +61,9 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     vendor/custom/prebuilt/addon.d/80-fdroid.sh:system/addon.d/80-fdroid.sh
+
+PRODUCT_COPY_FILES += \
+    vendor/addons/prebuilt/etc/dialer_experience.xml:system/etc/sysconfig/dialer_experience.xml
 
 # Build lineage SU
 WITH_SU := true
