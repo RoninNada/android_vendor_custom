@@ -20,6 +20,7 @@ PRODUCT_PACKAGES += \
     OmniJaws \
     OmniStyle \
     F-Droid \
-    F-DroidPrivilegedExtension
+    F-DroidPrivilegedExtension \
+    crDroidFonts
 
 DEVICE_PACKAGE_OVERLAYS += vendor/custom/overlay/common
